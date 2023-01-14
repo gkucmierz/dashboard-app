@@ -34,3 +34,30 @@ npm run build
 npm run lint
 ```
 
+
+# Dashboard
+
+Crypto/asset dashboard
+
+### Description
+
+Simple front-end app, that is able to calculate real-time scalar values and draw charts for given equations.
+
+### Requirements
+
+- list of possible assets (crypto assets, currencies, comodities).
+  Every asset should have distinct ticker e.g.
+  * `XBTC`, `XLTC` - Bitcoin, Litecoin
+  * `NASDAQ` - stock market
+  * `XAU` - gold price
+  * `PLN`, `EUR` - currencies
+  Every asset is denominated to dollar for convenience
+- input field for user equation
+- output actual chart for this equation
+
+### Motivation
+
+Possibility to draw simple or more complex charts using markets data.
+For example we input `XBTC / XAU`, to see how much Bitcoin is worth in Gold.
+To see how much dollar is worth in Bitcoin we can use `1 / XBTC` equation.
+Dashboard should also have implemented plenty of functions e.g. `AVG(...)` for average value.
