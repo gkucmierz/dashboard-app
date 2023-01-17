@@ -9,6 +9,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "eventemitter3": "^5.0.0",
+    "idb-keyval": "^6.2.0",
     "normalize.css": "^8.0.1",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
