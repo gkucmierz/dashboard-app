@@ -55,7 +55,8 @@ export default defineComponent({
       v-model="equation"
       placeholder="Type here…"
     />
-
+    
+    <pre>found: {{ instruments.length }}</pre>
     <pre>{{ instruments }}</pre>
   </main>
 </template>
